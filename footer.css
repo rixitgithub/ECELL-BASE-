@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: azure;
+    overflow:auto;
+
+}
+a{
+
+    text-decoration: none;
+    color:azure;
+    transition: 0.5s;
+}
+li{
+    list-style: none;
+    
+}
+h2{
+    color: aliceblue;
+    font-family:Futura,Trebuchet MS,Arial,sans-serif; ;
+    transition: 2s ;
+    width: fit-content;
+    border-bottom: 3px solid white;
+}
+p{
+    color: azure;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#linkedin{
+    color:#0077b5;
+}
+#instagram{
+    color: #e1306c;;
+}
+#X{
+    color: whitesmoke;
+}
+#facebook{
+    color:#316FF6;
+}
+#youtube{
+    color: #CD201F;
+}
+.div1,.div2,.div3,.div4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 10px;
+    margin:5px;
+    color: azure;    
+
+}
+/* .div2,.div3{
+    width: 200px;
+} */
+
+#icon{
+    display: flex;
+}
+
+#btn{
+    color: antiquewhite;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 1vw;
+}
+
+h2:hover{
+    /* font-size: xx-large; */
+    color:rgb(0, 255, 0);
+}
+a:hover{
+    text-decoration: underline;
+    color:yellow;
+}
+#btn i{
+    font-size: 1vw;
+    font-weight: 200px;
+}
+section{
+    overflow: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-evenly;
+    width:100%;
+           
+ 
+}
+.copyright a{
+    color: red;
+}
+footer{
+    background-color:black ;
+    position: absolute;
+    bottom: 0;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items:center;
+    height: 55vh;
+
+}
+
+.copyright{
+    
+    text-align: center;
+}
+hr{
+    margin: 0 auto;
+    border: 1px solid white;
+    background-color:white;
+    width:95%;
+}
+
+#ab{
+    font-size: 2vw;
+    padding: 0px;
+    font-weight:400 ;
+}
+
+#search{
+    width: 75%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: small;
+    border-bottom: 2px solid antiquewhite;
+    height: 25px;
+    color: azure;
+    
+}
+
+input::placeholder{
+    font-size: small;
+    color: azure;
+}
+#pin{
+    color:#CD201F;
+
+}
+#map{
+    border: 2px solid black;
+}
+
+@media (max-width:600px){
+    #map{
+        width: 200px;
+    }
+    #icon{
+        width: 50px;
+        height: 50px;
+    }
+    footer{
+        flex-direction: column;
+    
+        width: 100vw;
+    }
+} 
+
