@@ -1,67 +1,40 @@
-.first_about {
-    text-align: center;
-    color: #e3e9f9;
-    font-style: normal;
-    position: relative;
-    z-index: 100;
-    font-weight: 700;
-    font-size: 2.6vw;
-    position: relative;
-    top: 30px;
-}
-.css-2{
-    text-align: center;
-    color: #eff2f9;
-    font-style: normal;
-    position: relative;
-    z-index: 100;
-    font-weight: 50;
-    font-size: 2vw;
-    top: 40px;
-    text-align: justify;
-    margin-left: 50px;
-
-    width: 92%;
-
-}
-.css-1{
-    padding-left: 16px;
-    padding-top: 16px;
-}
-
-footer {
-    text-align: center;
-    color: white;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
-.css-3{
-    text-align: center;
-    color: #e3e9f9;
-    font-style: normal;
-    position: relative;
-    z-index: 100;
-    font-weight: 700;
-    font-size: 2.6vw;
-    position: relative;
-    top: 30px;
-
-}
-*{
+* {
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
-.ctp{
-    color: #e3e9f9;
+
+.head {
+    padding: 20px;
+    margin: 10vh;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    line-height: 1.1;
 }
-.head{
-    color: #e3e9f9;
-    font-size: 2vw;
+
+.content {
+    padding: 2px;
+    margin: 0px 10vw 10vw 10vw;
+    color: white;
+    text-align: center;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    position: relative;
+    word-spacing: 8px;
+}
+
+p,
+h1 {
+    font-weight: 100;
+}   
+.line{
+    margin-bottom: 124px;
+    height: 2px;
+    background-color: #0ea5f1;
+    position: relative;
+    margin: 0vw 23vw 5vw 23vw;
 }
